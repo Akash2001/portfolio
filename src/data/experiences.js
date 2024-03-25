@@ -1,18 +1,18 @@
 export const experiences = [
     {
-        org: 'Terrabyte Technologies',
+        org: 'Terra by Playshifu',
         role: 'Software Development Intern',
         duration: 'Dec 2023 - Present',
         location: 'Bengaluru, India',
         details: [
             `Worked on a game design studio which involved communication between react and unity, 3d asset
-            dashboard.`,
+            dashboard, games dashboard, brand website.`,
             `Worked on react-three-fiber, react-webgl`
         ]
     },
     {
         org: 'QUARTERSTACK TECHNOLOGIES',
-        role: 'Software Developer',
+        role: 'Freelance Software Developer',
         duration: 'July 2023 - Oct 2023',
         location: 'Remote, India',
         details: [
@@ -40,6 +40,16 @@ export const experiences = [
             `Worked on managing access of CRUD operations and data visibility, as per roles and permissions.`,
             `Worked on dashboard for visual representation of data`,
             `Worked on organization profile, advanced filter for leads, forget password flow`
+        ]
+    },
+    {
+        org: 'VYORIUS',
+        role: 'ReactJS intern',
+        duration: 'Mar 2022 - Apr 2022',
+        location: 'Remote, India',
+        details: [
+            'Worked on mapbox integration to show clusters and markers for various centers using lat and long values',
+            'Worked on some content addition and ui fixes'
         ]
     },
     {
