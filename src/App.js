@@ -1,7 +1,10 @@
 import { useState, useEffect } from 'react';
-import Home from './components/home';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Dating } from './components/dating';
+import Home from './components/dev';
 import { Navbar } from './components/navbar';
 import './App.css';
+import { Footer } from './components/footer';
 
 function App() {
     const [y, setY] = useState();
@@ -23,10 +26,14 @@ function App() {
     }, [y]);
 
     return (
-        <>
+        <BrowserRouter>
             <Navbar scrollY={y} />
-            <Home />
-        </>
+            <Routes>
+                <Route path='/' element={<Home />} />
+                <Route path="dating" element={<Dating />} />
+            </Routes>
+            <Footer />
+        </BrowserRouter>
     );
 }
 

@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { experiences } from "../data"
+import { experiences } from "../../data"
 
 export const Experience = () => {
     const [areDetailsCollapsed, setAreDetailsCollapsed] = useState(Array.from({ length: experiences.length }, (_, i) => true));

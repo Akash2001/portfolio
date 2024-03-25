@@ -7,6 +7,14 @@ body {
     box-shadow: none;
 }
 
+.mr-4{
+    margin: 0px 4px 0px 0px;
+}
+
+.mt-2{
+    margin-top: 2px;
+}
+
 /***Home***/
 .intro {
     width: 100%;
@@ -139,6 +147,10 @@ body {
 
 .details h2{
     text-align: center;
+}
+
+.cursor-pointer{
+    cursor: pointer;
 }
 
 @keyframes anim_moveTop {
