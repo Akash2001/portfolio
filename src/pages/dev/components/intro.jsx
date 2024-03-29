@@ -2,11 +2,11 @@ export const Intro = () => {
     return (
         <div className="intro">
             <div className="box">
-                <div className="text-white text-lg">
+                <div className="text-[#fff] text-xl">
                     <p className="line1">
                         Hello, I'm
                     </p>
-                    <h1>Akash Gadhave,</h1>
+                    <h1 className="text-4xl font-bold mt-4 mb-3">Akash Gadhave,</h1>
                     A<b> web developer</b>.
                     <p>
                         Your go-to developer for cutting-edge web solutions.<br />

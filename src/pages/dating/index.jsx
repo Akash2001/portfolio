@@ -1,4 +1,4 @@
-import { Intro } from "../dev/intro";
+import { Intro } from "./components/intro";
 
 export const Dating = () => {
   return (
