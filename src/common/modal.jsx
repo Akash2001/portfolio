@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { Modal } from "@mui/material";
 import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
 import { IoClose } from "react-icons/io5";
@@ -40,7 +40,7 @@ export const ModalComponent = ({ isOpen, setIsOpen, images, title }) => {
             </div>
             <div>
               <img
-                className="w-[60vw] h-[70vh] rounded-md"
+                className="w-[60vw] h-[70vh] rounded-md object-contain"
                 src={images[index].img}
                 alt="displayed_image"
               />
