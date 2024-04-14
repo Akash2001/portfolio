@@ -6,8 +6,8 @@ export const Education = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="my-4">
-      <div>Education:</div>
+    <div className="my-12 text-center bg-light-black p-4">
+      <div>Education</div>
       <div className="cursor-pointer" onClick={() => setIsOpen(true)}>
         <div className="bold-txt">
           Bachelor of Technology Computer Science and Engineering (CGPA:8.3)

@@ -26,7 +26,7 @@ export const ModalComponent = ({ isOpen, setIsOpen, images, title }) => {
       aria-describedby="modal-modal-description"
     >
       <div className="flex items-center justify-center h-full">
-        <div className="bg-[#fff] p-4 rounded-md">
+        <div className="p-4 rounded-md border border-[#fff]" id="intro">
           <div className="flex justify-end">
             <IoClose className="w-8 h-8 cursor-pointer" onClick={handleClose} />
           </div>
