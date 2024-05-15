@@ -10,14 +10,15 @@ import Img9 from '../assets/images/changeimg.png'
 import Img10 from '../assets/images/quote.png'
 import Img11 from '../assets/images/chat.png'
 import Img12 from '../assets/images/auth.png'
+import Img13 from '../assets/images/ticket-booking.png'
 
 export const reactProjects = [
-    {
-        name: "Tidbeat website",
-        description: "",
-        img: Img11,
-        link: "https://tidbeat.com"
-    },
+    // {
+    //     name: "Tidbeat website",
+    //     description: "",
+    //     img: Img11,
+    //     link: "https://tidbeat.com"
+    // },
     {
         name: "Chatting page ui",
         description: "A fully responsive chatting page ui. Used material-ui as frontend library.",
@@ -40,13 +41,19 @@ export const reactProjects = [
         name: "Simple authentication widget",
         description: "A simple authentication system which shows user info after login. Used auth0 SDK.",
         img: Img12,
-        link: "https://restaurant-react-site.web.app/"
+        link: "https://casa-992d5.web.app/"
     },
     {
         name: "Posts website",
         description: "Used react-bootstrap for ui components.",
         img: Img4,
         link: "https://null-innovations.web.app/"
+    },
+    {
+        name: "Ticket Booking System",
+        description: "Can book multiple tickets.",
+        img: Img13,
+        link: "https://beyond-exam-dc18b.web.app/"
     }
 ];
 
@@ -58,6 +65,11 @@ export const nextProjects = [
         link: "https://tidbeat-recipes.vercel.app/"
     },
 ];
+
+
+// export const angularProjects = [
+    
+// ];
 
 export const basicProjects = [
     {
