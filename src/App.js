@@ -30,7 +30,7 @@ function App() {
     return (
         <BrowserRouter>
             {loading ? (
-                <div className='w-[100vw] h-[100vh] flex flex-col gap-4 justify-center items-center'>
+                <div className='initial-screen w-[100vw] h-[100vh] flex flex-col gap-4 justify-center items-center'>
                     <img className='w-40 h-40' src='/images/me.png' alt="Akash Gadhave" />
                     <div>Hi, I'm Akash Gadhave. Welcome to my Portfolio.</div>
                 </div>

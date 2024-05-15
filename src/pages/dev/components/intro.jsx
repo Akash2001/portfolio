@@ -1,6 +1,6 @@
 export const Intro = () => {
     return (
-        <div className="intro">
+        <div className="intro h-[100dvh]">
             <div className="box">
                 <div className="text-[#fff] text-xl">
                     <p className="line1">
@@ -11,6 +11,9 @@ export const Intro = () => {
                     <p>
                         Your go-to developer for cutting-edge web solutions.<br />
                     </p>
+                    <div>
+                        
+                    </div>
                 </div>
                 <div>
                     <img className="intro-img" src="/images/developer.webp" alt="developer" />

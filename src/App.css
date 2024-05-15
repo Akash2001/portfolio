@@ -14,3 +14,16 @@
 .text-small{
     font-size: medium;
 }
+
+.initial-screen{
+    animation: sliding-animation 3000ms ease-in-out;
+}
+
+/* @keyframes sliding-animation {
+    0%{
+        translate: 0% 0%;
+    }
+    100%{
+        translate: -100% 0%;
+    }
+} */
